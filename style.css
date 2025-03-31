@@ -33,3 +33,10 @@ p {
         opacity: 1;
     }
 }
+body {
+    background-image: url('images/background-ai.png');
+    background-size: cover; /* Изображение заполняет весь экран */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-attachment: fixed; /* Фон остаётся на месте при прокрутке */
+    color: #ffffff; /* Текст станет белым, чтобы читалось лучше */
+}
