@@ -28,6 +28,17 @@ h1 {
 }
 /* Анимация для плавного появления текста */
 #animated-text {
+    animation: slide-in 2s ease-in-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+
     animation: fade-in 3s ease-in-out;
 }
 
