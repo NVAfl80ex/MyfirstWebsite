@@ -16,3 +16,13 @@ p {
     text-align: center;
     font-size: 18px;
 }
+body {
+    background-color: #f0f8ff; /* Голубой цвет */
+}
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+h1 {
+    color: #333;
+    font-size: 2em;
+}
