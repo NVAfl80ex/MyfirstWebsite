@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: #7d7777; /* Зелёный цвет , cambiado */
+    color: #cddddaf9; /* Зелёный цвет , cambiado */
     text-align: center;
     margin-top: 50px;
     font-size: 2em;
@@ -41,7 +41,7 @@ body {
     color: #ffffff; /* Текст станет белым, чтобы читалось лучше */
 }
 .animated-button {
-    background-color: #4CAF50; /* Зеленый фон */
+    background-color: #300dca; /* Зеленый фон cambiado */
     color: white; /* Белый текст */
     border: none;
     padding: 15px 30px;
