@@ -87,3 +87,31 @@ input, textarea {
 button.animated-button {
     margin-top: 10px;
 }
+/* Стили для модального окна */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Контент модального окна */
+.modal-content {
+    background: white;
+    width: 50%;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Закрывающая кнопка */
+.close {
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+}
