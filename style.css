@@ -40,3 +40,24 @@ body {
     background-attachment: fixed; /* Фон остаётся на месте при прокрутке */
     color: #ffffff; /* Текст станет белым, чтобы читалось лучше */
 }
+.animated-button {
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white; /* Белый текст */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+/* Анимация при наведении */
+.animated-button:hover {
+    background-color: #45a049; /* Темнее при наведении */
+    transform: scale(1.1); /* Немного увеличивается */
+}
+
+/* Эффект нажатия */
+.animated-button:active {
+    transform: scale(0.95); /* Чуть уменьшается при клике */
+}
