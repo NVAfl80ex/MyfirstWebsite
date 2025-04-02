@@ -130,3 +130,20 @@ button.animated-button {
     font-size: 25px;
     cursor: pointer;
 }
+/* Стили для модального окна */
+.modal-content {
+    background: #222222; /* Тёмный фон */
+    color: #ffffff; /* Белый текст */
+    width: 50%;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Закрывающая кнопка */
+.close {
+    color: #ff7e5f; /* Красноватый цвет кнопки закрытия */
+    font-size: 25px;
+    cursor: pointer;
+}
