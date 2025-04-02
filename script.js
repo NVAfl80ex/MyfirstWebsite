@@ -1,29 +1,24 @@
 document.addEventListener("DOMContentLoaded", function() {
-    alert("AI programación");
-});
-document.getElementById("contact-button").addEventListener("click", function() {
-    document.getElementById("contact-modal").style.display = "block";
-});
+    alert("AI programación"); // Оповещение при загрузке страницы
 
-document.querySelector(".close").addEventListener("click", function() {
-    document.getElementById("contact-modal").style.display = "none";
-});
+    const modal = document.getElementById("contact-modal");
+    const contactButton = document.getElementById("contact-button");
+    const closeButton = document.querySelector(".close");
 
-window.addEventListener("click", function(event) {
-    if (event.target === document.getElementById("contact-modal")) {
-        document.getElementById("contact-modal").style.display = "none";
-    }
-});
-document.getElementById("contact-button").addEventListener("click", function() {
-    document.getElementById("contact-modal").style.display = "block";
-});
+    // Открытие модального окна
+    contactButton.addEventListener("click", function() {
+        modal.style.display = "block";
+    });
 
-document.querySelector(".close").addEventListener("click", function() {
-    document.getElementById("contact-modal").style.display = "none";
-});
+    // Закрытие модального окна через крестик
+    closeButton.addEventListener("click", function() {
+        modal.style.display = "none";
+    });
 
-window.addEventListener("click", function(event) {
-    if (event.target === document.getElementById("contact-modal")) {
-        document.getElementById("contact-modal").style.display = "none";
-    }
+    // Закрытие модального окна при клике вне его
+    window.addEventListener("click", function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
 });
