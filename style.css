@@ -147,3 +147,28 @@ button.animated-button {
     font-size: 25px;
     cursor: pointer;
 }
+#code-text {
+    font-family: "Courier New", monospace;
+    color: #00ff00; /* Зеленый текст, похожий на код */
+    white-space: pre-wrap;
+    overflow: hidden;
+    border-left: 3px solid #00ff00;
+    padding-left: 10px;
+}
+
+/* Эффект набора текста */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#code-text code {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end);
+}
