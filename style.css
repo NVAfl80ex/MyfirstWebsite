@@ -147,13 +147,14 @@ button.animated-button {
     font-size: 25px;
     cursor: pointer;
 }
-#code-text {
+##code-text {
     font-family: "Courier New", monospace;
-    color: #00ff00; /* Зеленый текст, похожий на код */
-    white-space: pre-wrap;
+    color: #00ff00; /* Зеленый цвет текста */
+    white-space: pre-wrap; /* Перенос строк внутри блока */
     overflow: hidden;
-    border-left: 3px solid #00ff00;
+    border-left: 3px solid #00ff00; /* Линия слева */
     padding-left: 10px;
+    margin-top: 20px; /* Добавим отступ сверху */
 }
 
 /* Эффект набора текста */
@@ -164,11 +165,12 @@ button.animated-button {
     to {
         width: 100%;
     }
+
 }
 
 #code-text code {
     display: inline-block;
     overflow: hidden;
-    white-space: nowrap;
-    animation: typing 4s steps(40, end);
+    white-space: pre-wrap; /* Теперь текст автоматически переносится */
+    animation: typing 6s steps(50, end);
 }
