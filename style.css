@@ -116,7 +116,7 @@ button.animated-button {
 /* Стили для модального окна */
 .modal-content {
     background: #222222; /* Тёмный фон для контраста */
-    color: #ffffff; /* Белый текст */
+    color: #2b4358; /* Белый текст */
     width: 50%;
     margin: 15% auto;
     padding: 20px;
@@ -132,8 +132,8 @@ button.animated-button {
 }
 /* Стили для модального окна */
 .modal-content {
-    background: #222222; /* Тёмный фон */
-    color: #ffffff; /* Белый текст */
+    background: #332e2e; /* Тёмный фон */
+    color: #0a8a86; /* Белый текст cambiado */
     width: 50%;
     margin: 15% auto;
     padding: 20px;
