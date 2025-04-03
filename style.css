@@ -147,7 +147,7 @@ button.animated-button {
     font-size: 25px;
     cursor: pointer;
 }
-##code-text {
+#code-text {
     font-family: "Courier New", monospace;
     color: #00ff00; /* Зеленый цвет текста */
     white-space: pre-wrap; /* Перенос строк внутри блока */
